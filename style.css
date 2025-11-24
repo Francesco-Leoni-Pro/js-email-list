@@ -8,3 +8,39 @@
 img {
     max-width: 100%;
 }
+
+/* Stile generale del body */
+body {
+    font-family: sans-serif;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Titolo */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+}
+
+li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/* Hover sugli li */
+li:hover {
+    background-color: green;
+}
